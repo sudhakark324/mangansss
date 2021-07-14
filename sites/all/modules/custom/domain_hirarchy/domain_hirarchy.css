@@ -1,0 +1,7 @@
+.domain_hier{border: 1px solid #ccc; padding: 20px 0 20px 50px;    box-shadow: 1px 3px 8px #ccc;}
+.domain_hier li{margin-left:15px;padding: 8px;font-size: 15px;}
+#domain-form .form-item-is-default,#domain-form .form-item-ignore{display:none}
+table#domains tr th:nth-child(7), table#domains tr td:nth-child(7){display:none;}
+
+/*award page css*/
+.page-node-add-award-application .group-eligible-emp-group,.page-node-add-award-application .vertical-tabs,.page-node-add-award-application .form-actions{display:none;} 

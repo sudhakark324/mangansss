@@ -1,0 +1,9 @@
+﻿@media print {
+@page {size:landscape; }
+ .scroll-table1 {  overflow-x: visible;}
+table th, table td {padding:3px; color:#000;}
+.view-school-staff-member td.views-field-field-image {width: 220px;height: 100px;}
+.view-school-staff-member th { color:#000;}
+.view-school-staff-member th.views-field.views-field-field-designation-at-training { width: 100px;}
+.views-exposed-widgets label {width:100%;}
+}

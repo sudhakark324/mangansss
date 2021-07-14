@@ -1,0 +1,6 @@
+/*domain access hide source domain-sujay*/
+.form-item-domain-source{display:none;}
+.node-kvs_directory-form .form-item-domain-source{display:block !important;}
+
+/* Disable moderation notes */
+.form-item-log{Display:none}

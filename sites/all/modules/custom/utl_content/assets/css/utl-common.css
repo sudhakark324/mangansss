@@ -1,0 +1,74 @@
+
+/*logout button*/
+.login-out a{color: #fff !important;    padding: 11px 0 !important;    margin: 0 10px;}
+
+/*14-Nov*/
+.logged-in #award-validate{background:#f3f3f3; float: left; width: 100%; padding:8px; border: 1px solid #ddd;}
+.logged-in .form-type-date-combo{float:left;margin-left: 2%;}
+.logged-in #award-validate .description{line-height: 15px;}
+.logged-in #ajax_response .valid-data,
+.logged-in #ajax_response .invalid-data{margin-top: 0;}
+.logged-in #ajax_response .invalid-data:before{content:''; /*background:url(../images/invalid_user.png) no-repeat;*/ display:block;width: 22px;
+ height: 22px; float: left;margin-right: 10px;}
+.logged-in #edit-field-declaration{width: 100% !important;}
+.logged-in #edit-field-declaration .description{margin: 0;}
+
+
+/*editable form design*/
+.logged-in.page-node-edit .form-wrapper .form-item{width:100%; margin-bottom: 25px;}
+.logged-in.page-node-edit .form-wrapper .form-item-field-declaration-und{margin-bottom:25px;}
+.logged-in.page-node-edit .field-name-field-awards-status{max-width:320px;}
+.logged-in.page-node-edit .form-type-date-combo{width:auto !important;margin: 0 !important; margin-top: 14px !important;}
+.logged-in.page-node-edit .group-validate .form-item{width:23%;}
+.logged-in.page-node-edit .form-type-date-combo .description{clear: left;}
+
+
+
+
+/*Application print*/
+.node-type-award-application .view-header button.ico-print1{float:right; border: none; background: #cacaca; padding: 5px; box-sizing: border-box;
+ width: 65px;border-radius: 3px;}
+.node-type-award-application .view-awards .views-field{float:left; width:100%;}
+.node-type-award-application .view-awards .view-emp{margin-bottom: 25px;float: left; width: 100%;}
+.node-type-award-application .view-awards .view-emp > div{padding: 10px; width: 30%; float: left;}
+.node-type-award-application .view-awards .view-emp > div span.emp-txt-name{width: 145px;float: left; line-height: 20px;}
+.node-type-award-application .view-awards .view-emp > div span.emp-dt{line-height: 20px;font-weight: 600; float: left;;}
+.node-type-award-application .view-awards .view-emp .emp-dt .date-display-single{float:left;}
+.node-type-award-application .scroll-table1{margin-bottom:0;}
+.node-type-award-application .views-field .views-label{font-size: 103%;}
+.node-type-award-application .views-field-php{width: 50% !important; float:right !important;}
+.node-type-award-application .views-field-field-image{width: 50% !important;}
+.node-type-award-application .views-field-php img,
+.node-type-award-application .views-field-field-image img{width: 120px; height: 100px;}
+.node-type-award-application .views-field-field-image .views-label-field-image,
+.node-type-award-application .views-field-php .views-label-php{width: 100%; display: block;}
+.logged-in.page-award-apply-list table .views-field-field-image img{width:100px; height:100px;}
+
+
+
+/*Print peeview*/
+@media print{
+.region-header, .header-container, .nav-wrapper,
+.banner-wrapper, .breadcam, .tabs, .ico-print1,.scrollTop, .footer-top-wrapper,
+.footer-bottom-wrapper, .guide-text{display:none !important;}	
+.node-type-award-application table{margin-bottom:2px;}
+.node-type-award-application table tr td a{font-size:10px !important;}
+.node-type-award-application table tr th,
+.node-type-award-application table tr td{padding:3px; font-size:10px !important; color:#000;}
+.node-type-award-application .view-awards .view-emp > div{width:50%; float:left; padding:0;}
+.node-type-award-application .view-emp span{font-size:10px;}
+.node-type-award-application .views-field .views-label,
+.node-type-award-application .file a,
+.node-type-award-application table tr th{font-size:10px !important; color:#000;}
+.node-type-award-application .inner-content h1{font-size:16px; margin:0;}
+.inner-content h1::before{content:none; display:none;}
+.node-type-award-application .view-awards .view-emp{margin-bottom:2px;}
+.inner-content td, th{border:1px solid #000 !important;}
+.node-type-award-application .views-field-php img,
+.node-type-award-application .views-field-field-image img{width: 80px !important; height:80px !important;}
+}
+
+@media print and (orientation:landscape) {
+.node-type-award-application .view-awards .view-emp > div{width:30%; float:left; padding:0;}	
+	
+}

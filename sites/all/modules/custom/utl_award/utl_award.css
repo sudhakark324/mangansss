@@ -1,0 +1,26 @@
+.page-node-add-award-application .group-eligible-emp-group,.page-node-add-award-application .vertical-tabs,.page-node-add-award-application .form-actions{display:block!important;} 
+
+.emp-days,.emp-join{display:none;}
+
+/*4-Oct 2019*/
+
+.group-hw-level-marking{float:left; width:100%;}
+#edit-field-awards-status .form-item{width:95%;}
+#edit-field-quantitative-and-qual-hq label{display:none;}
+#edit-field-innovation-and-exper-hq label{display:none;}
+#edit-field-publication-research-pa-hq label{display:none;}
+.group-hw-level-marking{margin-top: 5%; border-top: 1px solid #a7a2a2; padding-top: 20px;}
+.group-hw-level-marking .form-wrapper,
+.group-hw-level-marking .field-group-div{width: calc(93%/3);  float: left; margin: 0 10px;}
+.group-hw-level-marking .field-group-div h3{display:none;}
+.group-hw-level-marking #edit-field-quantitavive-hq,
+.group-hw-level-marking #edit-field-quantitative-and-qual-hq{width:100%;}
+.group-hw-level-marking #edit-field-quantitavive-hq,
+.group-hw-level-marking #edit-field-quantitative-and-qual-hq{width:100%;}
+.group-hw-level-marking #edit-field-innovative-hq,
+.group-hw-level-marking #edit-field-innovation-and-exper-hq{width:100%;}
+.group-hw-level-marking #edit-field-publication-hq,
+.group-hw-level-marking #edit-field-publication-research-pa-hq{width:100%;}
+.group-hw-level-marking .field-name-field-awards-status{max-width: 350px !important;}
+.group-hw-level-marking .form-item{width:100% !important;}    
+.group-hw-level-marking .form-wrapper P{margin: 0 10px;  font-weight: 600;}
